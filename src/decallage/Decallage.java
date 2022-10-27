@@ -49,9 +49,9 @@ public class Decallage {
 		String texteCrypteMaj = texteCrypte.toUpperCase();
 
 		
-		//	DECHIFFREMENT = dk (x) = x - k mod 26
+		//	DECHIFFREMENT = dk (x) = x - k mod 28
 		
-		for(int cle=0 ; cle<mod ; cle++) { //chiffrement : for(int cle=25 ; cle>=0 ; cle--) {
+		for(int cle=0 ; cle<mod ; cle++) { //chiffrement
 			
 			System.out.println("\n\ncle = " + cle);
 			int i=0;
